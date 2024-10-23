@@ -118,3 +118,43 @@
 
 27. Delete whole word from right side of the cursor
     - Ctrl + Backspace
+   
+# mac
+30. To close file
+   - cmd + w
+
+30. To open closed file
+   - cmd + shift + t
+
+30. Open current terminal
+   - cmd + j
+
+30. Search files in the workspace
+   - cmd + p
+
+30. Open command palette
+   - cmd + shift + p
+
+30. Toggle word wrap
+   - ctrl + z
+
+30. Activity bar
+   - cmd + b
+
+30. Activity bar files
+   - cmd + shift + e
+
+30. Activity bar extensions
+   - cmd + shift + x
+
+30. Split screen 
+   - cmd + \
+
+30. New line anytime 
+   - cmd + enter
+
+30. Erases text to the right of the cursor
+   - fn + delete
+
+30. Navigate in and across files
+   - ctrl + tab
