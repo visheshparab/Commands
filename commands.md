@@ -18,6 +18,12 @@
 
    - cd D:
 
+# Mac Terminal
+
+1. To set permission 
+   - sudo chown -R $USER /Users/visheshparab/Desktop/Projects/JavaScript/complete-javascript-course-master/17-Modern-JS-Modules-         
+     Tooling/starter/node_modules 
+
 ## VScode
 
 1. Terminal clear
@@ -180,8 +186,12 @@
    - npm i express
 
 6. Install express specific version(Here version eg. 4.18.2)
-
+   - npm install express@4.18.2
    - npm i express@4.18.2
+
+7. Install all packages which are available in dependencies under package.json file
+   - npm install
+   - npm i
 
 ## Git
 
