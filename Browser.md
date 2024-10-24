@@ -12,3 +12,5 @@
 3. New private window
 
    - Ctrl + Shift + N
+
+YouTube
