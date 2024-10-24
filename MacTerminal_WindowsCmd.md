@@ -1,67 +1,67 @@
 # MacTerminal / Windows Cmd
 
-1. Create new directory
+#### Create new directory
 
-   - cd mkdir
+- cd mkdir
 
-2. Open Directory
+#### Open Directory
 
-   - cd folderName
+- cd folderName
 
-3. Goto previous directory
+#### Goto previous directory
 
-   - cd ..
+- cd ..
 
-4. Open specific Drive (Below eg. of D drive)
+#### Open specific Drive (Below eg. of D drive)
 
-   - cd D:
+- cd D:
 
-5. List all files
+#### List all files
 
-   - Mac: ls
-   - Win: dir
+- Mac: ls
+- Win: dir
 
-6. Move 2 levels back
+#### Move 2 levels back
 
-   - Cd . - ./..
+- Cd . - ./..
 
-7. Create files
+#### Create files
 
-   - Mac: touch fileName
-   - Win: edit fileName
+- Mac: touch fileName
+- Win: edit fileName
 
-8. Create multiple files
+#### Create multiple files
 
-   - Mac: touch fileName fileName2 ….
-   - Win: edit fileName fileName2 ….
+- Mac: touch fileName fileName2 ….
+- Win: edit fileName fileName2 ….
 
-9. Deleting files
+#### Deleting files
 
-   - Mac: rm fileName
-   - Win: del fileName
+- Mac: rm fileName
+- Win: del fileName
 
-10. Deleting multiple files
+#### Deleting multiple files
 
 - Mac: rm fileName fileName2 …
 - Win: del fileName fileName2 ….
 
-11. Move files
+#### Move files
 
 - Mac: mv fileName path(mv mapty.js - ../)
 
-12. Move multiple files
+#### Move multiple files
 
 - Mac: mv fileName path(mv mapty.js - ../)
 
-13. Delete empty directory
+#### Delete empty directory
 
 - Mac: rmdir folder - Name
 
-14. Delete directory and all files within
+#### Delete directory and all files within
 
 - Mac: rm -R folde - rName
 
-15. To set permission
+#### To set permission
 
 - sudo chown -R $USER /Users/visheshparab/Desktop/Projects/JavaScript/complete-javascript-course-master/17-Modern-JS-Modules-  
   Tooling/starter/node_modules

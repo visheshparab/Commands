@@ -1,4 +1,4 @@
-# Browser
+## Browser
 
 #### Jump to the address bar
 
@@ -9,10 +9,13 @@
 
 - Ctrl + T
 
-New private window
-Ctrl + Shift + N
+#### New private window
 
-# YouTube
+- Ctrl + Shift + N
+
+  <br>
+
+## YouTube
 
 Playback Controls
 
