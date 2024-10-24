@@ -29,9 +29,14 @@
 
    - npm init
 
-4. Run file which is added in package.json under script.
+4. Run file which is added in package.json under script. ("start": "parcel index.html",)
 
    - npm run start
+   - npm start
+
+#### Build final bundel, add this to script ("build": "parcel build index.html")
+
+- npm run build
 
 5. Install express
 
@@ -39,9 +44,20 @@
    - npm i express
 
 6. Install express specific version(Here version eg. 4.18.2)
+
    - npm install express@4.18.2
    - npm i express@4.18.2
 
 7. Install all packages which are available in dependencies under package.json file
    - npm install
    - npm i
+
+#### Parcel install
+
+- npm install parcel --save-dev
+
+- npm i --save-dev parcel@1.12.3
+
+- npm uninstall parcel
+
+- npx parcel index.html
