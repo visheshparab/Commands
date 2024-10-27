@@ -85,3 +85,7 @@ push Update remote refs along with associated objects
 18. To delete branch
 
     - git branch -d <-branch_name->
+
+#### List userName and emailId of git
+
+- git config --list
