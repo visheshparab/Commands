@@ -62,6 +62,8 @@
 
 - npx parcel index.html
 
+- npm i parcel@next -D / npm i parcel@2 -D
+
 #### Install core-js
 
 - npm i core-js
