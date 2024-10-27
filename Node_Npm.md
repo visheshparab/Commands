@@ -61,3 +61,11 @@
 - npm uninstall parcel
 
 - npx parcel index.html
+
+#### Install core-js
+
+- npm i core-js
+
+### Install regenerator-runtime
+
+- npm i regenerator-runtime
