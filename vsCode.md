@@ -1,10 +1,5 @@
 # VScode
 
-1. Terminal clear
-
-   - clear
-   - Ctrl + K
-
 2. Select all occurances in file
 
    - Ctrl + Shift + L
