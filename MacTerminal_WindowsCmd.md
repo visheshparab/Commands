@@ -69,3 +69,7 @@
 Folder rename
 Mac: mv "old-folder-name" "new-folder-name"
 Win: ren "old-folder-name" "new-folder-name"
+
+#### Display information about the machine’s hardware architecture.
+
+- Mac: uname -m
