@@ -1,10 +1,5 @@
 # VScode
 
-1. Terminal clear
-
-   - clear
-   - Ctrl + K
-
 2. Select all occurances in file
 
    - Ctrl + Shift + L
@@ -118,43 +113,61 @@
 
 27. Delete whole word from right side of the cursor
     - Ctrl + Backspace
-   
+
 # mac
+
 30. To close file
-   - cmd + w
+
+- cmd + w
 
 30. To open closed file
-   - cmd + shift + t
+
+- cmd + shift + t
 
 30. Open current terminal
-   - cmd + j
+
+- cmd + j
 
 30. Search files in the workspace
-   - cmd + p
+
+- cmd + p
 
 30. Open command palette
-   - cmd + shift + p
+
+- cmd + shift + p
 
 30. Toggle word wrap
-   - ctrl + z
+
+- ctrl + z
 
 30. Activity bar
-   - cmd + b
+
+- cmd + b
 
 30. Activity bar files
-   - cmd + shift + e
+
+- cmd + shift + e
 
 30. Activity bar extensions
-   - cmd + shift + x
 
-30. Split screen 
-   - cmd + \
+- cmd + shift + x
 
-30. New line anytime 
-   - cmd + enter
+30. Split screen
+
+- cmd + \
+
+30. New line anytime
+
+- cmd + enter
 
 30. Erases text to the right of the cursor
-   - fn + delete
+
+- fn + delete
 
 30. Navigate in and across files
-   - ctrl + tab
+
+- ctrl + tab
+
+#### Open Thunder client
+
+- Ctrl + shift + R

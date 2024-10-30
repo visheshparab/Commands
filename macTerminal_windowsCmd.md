@@ -19,7 +19,12 @@
 #### List all files
 
 - Mac: ls
-- Win: dir
+- Win: dir or ls
+
+#### List all files including hidden
+
+- Mac: ls -a
+- Win: ls -a or ls -la
 
 #### Move 2 levels back
 

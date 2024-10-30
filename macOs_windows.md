@@ -1,4 +1,4 @@
-# MacOs/Windows
+## MacOs/Windows
 
 1. Switch between tabs
 
