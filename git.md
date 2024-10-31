@@ -89,3 +89,39 @@ push Update remote refs along with associated objects
 #### List userName and emailId of git
 
 - git config --list
+
+#### Imagine you’re working on a feature, but an urgent bug fix needs attention. Rather than committing half-done work, you can stash your changes, switch to the bug-fix branch, and return to your feature later without any clutter.
+
+- git stash
+- git stash apply
+
+#### git reflog can save you. It keeps track of all changes to the tip of branches, helping you recover lost commits.
+
+- git reflog
+
+#### Debugging can be frustrating, especially when you’re unsure when a bug was introduced. git bisect performs a binary search through your commit history to find the exact commit where things went wrong.
+
+- git bisect start
+- git bisect good <last known good commit>
+- git bisect bad <bad commit>
+
+#### Sometimes you don’t want to merge an entire branch but still need to include specific commits. git cherry-pick allows you to take specific commits from one branch and apply them to another. You’re working on a new feature, and your teammate fixes a bug on a different branch. Instead of merging the entire branch, you can cherry-pick that one bug fix and apply it to your working branch.
+
+- git cherry-pick <commit-hash>
+
+#### git reset — — hard is a powerful but dangerous command. It resets your working directory to a specific commit, discarding any changes that have not been committed. Say your project is in a broken state and you want to start fresh from a previous commit. git reset — — hard allows you to revert all changes back to a stable commit. Just be cautious, as it removes uncommitted changes.
+
+- git reset --hard <commit-hash>
+
+#### Need to know who made the last change to a particular line in a file? git blame shows you a detailed history of who changed what, and when. If you’re trying to understand why a piece of code behaves in a certain way, git blame helps you trace back to the original author. This is especially useful for debugging or code reviews.
+
+- git blame <file>
+
+#### Over time, your project can accumulate many untracked files, like build artifacts or logs. git clean helps you clean up by removing these files from your working directory. After multiple builds or experiments, your project might have leftover files that aren’t tracked by Git. git clean keeps your workspace tidy by removing unnecessary files and directories.
+
+- git clean -f
+- git clean -fd
+
+#### Ever wanted to see a summary of who contributed to a project? git shortlog groups commit by author, making it easy to see who has been working on what. In open-source projects or large teams, git shortlog provides a quick overview of each developer’s contributions. It’s also handy for generating contribution stats for reports or presentations.
+
+- git shortlog -s -n
