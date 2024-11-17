@@ -1,5 +1,10 @@
 # Git
 
+#### Git config
+
+- git config --global user.name [userName]
+- git config --global user.email [emailId]
+
 clone Clone a repository into a new directory
 init Create an empty Git repository or reinitialize an existing one
 
@@ -46,6 +51,7 @@ push Update remote refs along with associated objects
 9. Add all files which are modified and created new
 
    - git add .
+   - git add -A
 
 10. save all files and changes on git
 
@@ -125,3 +131,37 @@ push Update remote refs along with associated objects
 #### Ever wanted to see a summary of who contributed to a project? git shortlog groups commit by author, making it easy to see who has been working on what. In open-source projects or large teams, git shortlog provides a quick overview of each developer’s contributions. It’s also handy for generating contribution stats for reports or presentations.
 
 - git shortlog -s -n
+
+#### Jump to previous commit
+
+- git reset --hard HEAD
+
+#### Jump to specific commit
+
+- git reset --hard [commitId]
+
+#### Log of all commits
+
+- git log
+
+#### List all branches
+
+- git branch
+
+#### Create new branch
+
+- git branch [brachName]
+
+#### Switch to branch
+
+- git checkout [branchName]
+
+#### Merge changes in master branch (current in master branch)
+
+- git merge [newFeatureBranchName]
+
+### Local repository to github
+
+- git remote add origin https://github.com/visheshparab/forkify.git
+- git push origin master
+- git push origin [anotherBranchName] (if you also want to push other branches)
