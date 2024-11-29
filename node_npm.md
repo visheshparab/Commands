@@ -71,3 +71,11 @@
 ### Install regenerator-runtime
 
 - npm i regenerator-runtime
+
+#### combine core-js and regenerator-runtime
+
+- npm i core-js regenerator-runtime
+
+#### A fraction arithmetic library written in javascript.
+
+- npm i fractional
