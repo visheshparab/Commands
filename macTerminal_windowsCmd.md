@@ -74,3 +74,7 @@
 Folder rename
 Mac: mv "old-folder-name" "new-folder-name"
 Win: ren "old-folder-name" "new-folder-name"
+
+#### Check started services
+
+- Win: net start
