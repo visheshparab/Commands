@@ -26,6 +26,11 @@
 
 db.createCollection("[collectionName]")
 
+#### List all collections
+
+- Win: db.getCollectionNames()
+- Win: show collections
+
 #### Insert a document
 
 - Win: db.[collectionName].insert({ [key]: "[value]" })

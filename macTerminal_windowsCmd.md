@@ -75,12 +75,10 @@ Folder rename
 Mac: mv "old-folder-name" "new-folder-name"
 Win: ren "old-folder-name" "new-folder-name"
 
-<<<<<<< HEAD
-#### Check started services
-
-- Win: net start
-=======
 #### Display information about the machine’s hardware architecture.
 
 - Mac: uname -m
->>>>>>> 4dffb87ce1f6da9cf33f88a9ab923812230ea7dc
+
+#### Check started services
+
+- Win: net start

@@ -12,3 +12,11 @@
 
 - clear
 - Ctrl + K
+
+#### Open project in vscode
+
+- code .
+
+#### Open project in current vscode window
+
+- code -r .
