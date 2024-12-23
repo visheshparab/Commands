@@ -1,0 +1,2 @@
+- class names in pascal casing.
+- properties in classes in pascal case.
