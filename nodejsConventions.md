@@ -1,0 +1,4 @@
+- Don't use sync versions of function in fs, crypto and zlib modules in your callback function.
+- Don't perform complex calculations(e.g. loops inside loops)
+- Be careful with JSON in large objects.
+- Don't use too complex regular expressions (e.g. nested quantifiers)

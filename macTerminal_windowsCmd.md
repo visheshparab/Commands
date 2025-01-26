@@ -26,6 +26,9 @@
 - Mac: ls -a
 - Win: ls -a or ls -la
 
+#### List all files folders including permissions
+- Mac: ls -l
+
 #### Move 2 levels back
 
 - Cd . - ./..
@@ -68,7 +71,7 @@
 
 #### To set permission
 
-- sudo chown -R $USER /Users/visheshparab/Desktop/Projects/JavaScript/complete-javascript-course-master/17-Modern-JS-Modules-  
+- sudo chown -R $USER /Users/visheshparab/Desktop/Projects/JavaScript/complete-javascript-course-master/17-Modern-JS-Modules-
   Tooling/starter/node_modules
 
 Folder rename
@@ -82,3 +85,9 @@ Win: ren "old-folder-name" "new-folder-name"
 #### Check started services
 
 - Win: net start
+
+#### path
+- Mac: pwd
+
+#### Read Write full Permissions
+- sudo chmod 777 [path or fileName/folderName]
