@@ -26,6 +26,10 @@
 #### Update package to latest version or required version
 - npm update [packageName]
 
+#### Install all packages which are available in dependencies under package.json file(creates node_modules folder)
+   - npm install
+   - npm i
+
 #### Run file which is added in package.json under script. ("start": "parcel index.html",)
 
    - npm run start
@@ -47,10 +51,6 @@
 
    - npm install express@4.18.2
    - npm i express@4.18.2
-
-#### Install all packages which are available in dependencies under package.json file
-   - npm install
-   - npm i
 
 #### Parcel install
 
@@ -94,3 +94,12 @@
 
 #### nodemon version
 - nodemon --version
+
+#### Third party middleware
+- npm i morgan
+
+#### To read config.env file
+   - npm i dotenv
+
+####
+   - npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --save-dev
