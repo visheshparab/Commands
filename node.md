@@ -5,14 +5,18 @@
 - node --version
 - node -v
 
-#### JavaScript code editor
+#### To wirte JavaScript code(node repel)
 
 - node
+
+#### to exit from node repel
+
+- .exit
 
 #### Run JavaScript file
 
 - node fileName
-- node .
+- node . (if fileName is index.js)
 
 ## Npm
 
@@ -34,6 +38,10 @@
 
 - npm run start
 - npm start
+
+#### lite-server tool (Run file which is added in package.json under script. ("start": "parcel index.html",))
+
+-npm install --save-dev lite-server
 
 #### Build final bundel, add this to script ("build": "parcel build index.html")
 

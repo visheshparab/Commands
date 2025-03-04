@@ -8,7 +8,8 @@
 
 #### Use mongoDB
 
-- mongo
+- Win: mongo
+- mac: mongosh "mongodb+srv://cluster0.r5dwp.mongodb.net/" --apiVersion 1 --username visheshparab
 
 #### List Databases
 
@@ -24,7 +25,7 @@
 
 #### Create a collection
 
-db.createCollection("[collectionName]")
+- db.createCollection("[collectionName]")
 
 #### List all collections
 
@@ -33,19 +34,45 @@ db.createCollection("[collectionName]")
 
 #### Insert a document
 
-- db.[collectionName].insert({ [key]: "[value]" })
+- db.[collectionName].insert({ [key]: [value] }) (insert document)
+- db.[collectionName].insertOne({ [key]: [value] }) (for one document)
+- db.[collectionName].insertMany({ [key]: [value] }) (for many documents)
 
-#### Query all documents
+#### Find all documents
 
 - db.[collectionName].find()
 
-#### Delete a single document
+#### Find required document with exact search value
 
-- db.[collectionName].deleteOne({ [key]: "[value]" });
+- db.[collectionName].find({ [key]: [value] })
 
-#### Empty a MongoDB collection
+#### Find required document with conditional search value (&& condition)
 
-- db.[collectionName].deleteMany({});
+- db.[collectionName].find({ [key]: {$lte: [value]}, [key]: {$gte: [value]} }) ($lte - less then equal, $gte - greater than equal)
+
+#### Find required document with conditional search value (|| condition)
+
+- db.[collectionName].find({ $or: [ { [key]: { $lte: [value] }}, { [key]: { $gte: [value] }}]})   ($or - OR operator)
+
+#### Find required document only with specific key field in result
+
+- db.[collectionName].find({},{ [key]: 1 })
+- db.[collectionName].find({ [key]: {$lte: [value]}}, { [key]: 1 })
+
+#### Update query (you can also set new key)
+
+- db.[collectionName].updateOne({ [key]: [value] }, { $set: { [key]: [value]}})
+- db.[collectionName].updateMany({ [key]: [value] }, { $set: { [key]: [value]}})
+
+#### Replace query (same as update only difference it does not contain $set operator and replaceMany)
+
+- db.[collectionName].replaceOne({ [key]: { $gte: [value] }, rating: { $gte: 4.8 } }, { [key]: [value], rating: 4.8, premium: false })
+
+#### Delete query
+
+- db.[collectionName].deleteOne({ [key]: [value]})
+- db.[collectionName].deleteMany({ [key]: {$lte: [value]}})
+- db.[collectionName].deleteMany({})
 
 #### Drop a collection
 
@@ -58,3 +85,7 @@ db.createCollection("[collectionName]")
 #### View server status
 
 - db.serverStatus()
+
+#### Quit mongoDB shell
+
+- quit()
