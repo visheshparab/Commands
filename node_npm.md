@@ -2,38 +2,38 @@
 
 #### Node version.
 
-   - node --version
-   - node -v
+- node --version
+- node -v
 
 #### JavaScript code editor
 
-   - node
+- node
 
 #### Run JavaScript file
 
-   - node fileName
-   - node .
+- node fileName
+- node .
 
 ## Npm
 
 #### All version.
 
-   - npm version
+- npm version
 
 #### npm version.
 
-   - npm --version
-   - npm -version
-   - npm -v
+- npm --version
+- npm -version
+- npm -v
 
 #### initializing new project -> package.json file
 
-   - npm init
+- npm init
 
 #### Run file which is added in package.json under script. ("start": "parcel index.html",)
 
-   - npm run start
-   - npm start
+- npm run start
+- npm start
 
 #### Build final bundel, add this to script ("build": "parcel build index.html")
 
@@ -41,17 +41,18 @@
 
 #### Install express
 
-   - npm install express --save
-   - npm i express
+- npm install express --save
+- npm i express
 
 #### Install express specific version(Here version eg. 4.18.2)
 
-   - npm install express@4.18.2
-   - npm i express@4.18.2
+- npm install express@4.18.2
+- npm i express@4.18.2
 
 #### Install all packages which are available in dependencies under package.json file
-   - npm install
-   - npm i
+
+- npm install
+- npm i
 
 #### Parcel install
 
@@ -80,3 +81,15 @@
 #### A fraction arithmetic library written in javascript.
 
 - npm i fractional
+
+#### Express draft
+
+- npm i -g express-draft
+
+#### Create (and start) the app in current folder:
+
+- exp .
+
+#### Run express draft app
+
+- npm run dev

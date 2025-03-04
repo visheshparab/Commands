@@ -1,26 +1,26 @@
 #### Start mongoDB service
 
-- Win: net start mongoDB
+- net start mongoDB
 
 #### Stop mongoDB service
 
-- Win: net stop MongoDB
+- net stop MongoDB
 
 #### Use mongoDB
 
-- Win: mongo
+- mongo
 
 #### List Databases
 
-- Win: show dbs
+- show dbs
 
 #### Switch Databases
 
-- Win: use [databaseName]
+- use [databaseName]
 
 #### Current database
 
-- Win: db
+- db
 
 #### Create a collection
 
@@ -28,25 +28,33 @@ db.createCollection("[collectionName]")
 
 #### List all collections
 
-- Win: db.getCollectionNames()
-- Win: show collections
+- db.getCollectionNames()
+- show collections
 
 #### Insert a document
 
-- Win: db.[collectionName].insert({ [key]: "[value]" })
+- db.[collectionName].insert({ [key]: "[value]" })
 
 #### Query all documents
 
-- Win: db.[collectionName].find()
+- db.[collectionName].find()
+
+#### Delete a single document
+
+- db.[collectionName].deleteOne({ [key]: "[value]" });
+
+#### Empty a MongoDB collection
+
+- db.[collectionName].deleteMany({});
 
 #### Drop a collection
 
-- Win: db.[collectionName].drop()
+- db.[collectionName].drop()
 
 #### View database statistics
 
-- Win: db.stats()
+- db.stats()
 
 #### View server status
 
-- Win: db.serverStatus()
+- db.serverStatus()
