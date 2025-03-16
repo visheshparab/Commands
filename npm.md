@@ -16,6 +16,13 @@
 - npm i [packageName]
 - npm install [packageName]
 
+#### install package to latest version
+- npm i [packageName]
+- npm i [packageName]@latest
+
+#### install package to required version
+- npm i [packageName]@[version]
+
 #### Unstalling packages
 - npm un [packageName]
 - npm uninstall [packageName]
@@ -23,7 +30,7 @@
 #### List of outdated packages
 - npm outdated
 
-#### Update package to latest version or required version
+#### Update package to latest version
 - npm update [packageName]
 
 #### Install all packages which are available in dependencies under package.json file(creates node_modules folder)
@@ -101,5 +108,8 @@
 #### To read config.env file
    - npm i dotenv
 
-####
+#### Eslint configuration
    - npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --save-dev
+
+#### mongoose
+   - npm i mongoose

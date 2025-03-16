@@ -1,26 +1,26 @@
 ## MacOs/Windows
 
-1. Switch between tabs
+#### Switch between tabs
 
    - Ctrl + Tab
 
-2. Save
+#### Save
 
    - Ctrl + S
 
-3. Copy
+#### Copy
 
    - Ctrl + C
 
-4. Cut
+#### Cut
 
    - Ctrl + X
 
-5. Paste
+#### Paste
 
    - Ctrl + V
 
-6. Select all
+#### Select all
 
    - Ctrl + A
 
@@ -31,3 +31,18 @@ macOS
 Control + Left Arrow: Move to the previous desktop.
 Control + Right Arrow: Move to the next desktop.
 You can also use Mission Control (swipe up with three or four fingers on the trackpad, or press F3 or Control + Up Arrow) on macOS to see all desktops and select one.
+
+#### Windows full screen
+- Mac: Ctrl + Command + F
+- Win: Alt + Space + X
+
+#### Quit window
+- Mac: Command + Q
+- Win: Alt + Space + C
+
+#### Close window
+- Mac: Command + W
+- Win: Alt + Space + C
+
+#### Open emoji window
+   - Ctrl + Cmd + Spacebar
