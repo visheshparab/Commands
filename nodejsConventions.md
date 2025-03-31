@@ -2,3 +2,9 @@
 - Don't perform complex calculations(e.g. loops inside loops)
 - Be careful with JSON in large objects.
 - Don't use too complex regular expressions (e.g. nested quantifiers)
+- Create app.js file for express configurations.
+- (req, res, next) router, middleware call-back naming convection
+- while requiring core, modules or third party modules use same variable name as require.
+- in config.env file set variable name in upper case.
+- mongo models variable start with upper case.
+- setting jwt header set key as "Authorization" and value starts with "Bearer"

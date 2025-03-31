@@ -1,103 +1,32 @@
-# Node
-
 #### Node version.
 
-- node --version
-- node -v
+   - node --version
+   - node -v
 
 #### To wirte JavaScript code(node repel)
 
-- node
+   - node
 
 #### to exit from node repel
+   - .exit
+   - Ctrl + D
+   - Ctrl + C (2 times)
 
-- .exit
+#### List of all global variables available in node(after node command)
+   - tab
+
+#### Previous result (Eg. 10+20 result is 30, then typing _+40 results 70)
+   - _
 
 #### Run JavaScript file
 
-- node fileName
-- node . (if fileName is index.js)
+   - node fileName
+   - node . (if fileName is index.js)
 
-## Npm
+#### Add environmental variable
+   - NODE_ENV=development npx nodemon server.js (single environmental variable)
+   - NODE_ENV=development X=24 npx nodemon server.js (multiple environmental variable)
 
-#### All version.
-
-- npm version
-
-#### npm version.
-
-- npm --version
-- npm -version
-- npm -v
-
-#### initializing new project -> package.json file
-
-- npm init
-
-#### Run file which is added in package.json under script. ("start": "parcel index.html",)
-
-- npm run start
-- npm start
-
-#### lite-server tool (Run file which is added in package.json under script. ("start": "parcel index.html",))
-
--npm install --save-dev lite-server
-
-#### Build final bundel, add this to script ("build": "parcel build index.html")
-
-- npm run build
-
-#### Install express
-
-- npm install express --save
-- npm i express
-
-#### Install express specific version(Here version eg. 4.18.2)
-
-- npm install express@4.18.2
-- npm i express@4.18.2
-
-#### Install all packages which are available in dependencies under package.json file
-
-- npm install
-- npm i
-
-#### Parcel install
-
-- npm install parcel --save-dev
-
-- npm i --save-dev parcel@1.12.3
-
-- npm uninstall parcel
-
-- npx parcel index.html
-
-- npm i parcel@next -D / npm i parcel@2 -D
-
-#### Install core-js
-
-- npm i core-js
-
-### Install regenerator-runtime
-
-- npm i regenerator-runtime
-
-#### combine core-js and regenerator-runtime
-
-- npm i core-js regenerator-runtime
-
-#### A fraction arithmetic library written in javascript.
-
-- npm i fractional
-
-#### Express draft
-
-- npm i -g express-draft
-
-#### Create (and start) the app in current folder:
-
-- exp .
-
-#### Run express draft app
-
-- npm run dev
+#### importing data from file to mongodb
+   - node dev-data/data/import-dev-data.js --import
+   - node dev-data/data/import-dev-data.js --delete

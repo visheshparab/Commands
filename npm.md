@@ -113,3 +113,19 @@
 
 #### mongoose
    - npm i mongoose
+
+#### Validator for mongo
+   - npm i validator
+
+#### Node debugger
+   - npm i ndb --save-dev
+   - sudo npm i ndb --global    (globally)
+
+#### Encryption
+   - npm i bcryptjs
+
+#### Json web token
+   - npm i jsonwebtoken
+
+#### Send email
+   - npm i nodemailer

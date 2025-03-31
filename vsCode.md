@@ -28,6 +28,9 @@
 
    - Ctrl + F4
 
+#### New terminal
+- Ctrl + Shift + `
+
 #### Navigate to terminal
 
    - Ctrl + `

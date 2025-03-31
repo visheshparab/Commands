@@ -50,3 +50,8 @@ Miscellaneous
 
 :smile: :heart: :rocket:
 ==highlighted text==
+
+#### Developer tool
+- option + command + I (Network)
+- option + command + J (Console)
+- option + command + C (Elements)
