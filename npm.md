@@ -129,3 +129,18 @@
 
 #### Send email
    - npm i nodemailer
+
+#### Rate limiting
+   - npm i express-rate-limit
+
+#### security http header
+   - npm i helmet
+
+#### Data sanitization against NoSql query injection
+   - npm i express-mongo-sanitize
+
+#### Data sanitization against xss
+   - npm i xss-clean
+
+#### Prevent paramater pollution (hpp - http parameter pollution)
+   - npm i hpp
