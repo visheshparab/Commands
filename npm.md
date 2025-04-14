@@ -144,3 +144,6 @@
 
 #### Prevent paramater pollution (hpp - http parameter pollution)
    - npm i hpp
+
+#### Install pug
+   - npm i pug
