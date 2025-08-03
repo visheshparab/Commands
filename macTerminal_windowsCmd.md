@@ -6,7 +6,9 @@
 
 #### Open Directory
 
-- cd folderName
+- cd [folderName]
+- cd [folderName]/[anotherFolderName]
+- cd [path]
 
 #### Goto previous directory
 
@@ -16,7 +18,7 @@
 
 - cd D:
 
-#### List all files
+#### List all files and folders
 
 - Mac: ls
 - Win: dir or ls
@@ -35,18 +37,18 @@
 
 #### Create files
 
-- Mac: touch fileName
-- Win: edit fileName
+- Mac: touch [fileName]
+- Win: edit [fileName]
 
 #### Create multiple files
 
-- Mac: touch fileName fileName2 ….
-- Win: edit fileName fileName2 ….
+- Mac: touch [fileName] [fileName2] ….
+- Win: edit [fileName] [fileName2] ….
 
 #### Deleting files
 
-- Mac: rm fileName
-- Win: del fileName
+- Mac: rm [fileName]
+- Win: del [fileName]
 
 #### Deleting multiple files
 
@@ -91,3 +93,15 @@ Win: ren "old-folder-name" "new-folder-name"
 
 #### Read Write full Permissions
 - sudo chmod 777 [path or fileName/folderName]
+
+#### Move cursor fast through command to edit
+- option + leftArrow/RightArrow
+
+#### Creal typed command
+- control + U
+
+#### Move cursor to start of the command
+- control + A
+
+#### Move cursor to end of the command
+- control + E
