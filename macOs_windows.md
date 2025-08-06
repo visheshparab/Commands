@@ -9,19 +9,20 @@
    - Ctrl + S
 
 #### Copy
-
+   - Mac: command + C
    - Ctrl + C
 
 #### Cut
-
+   - Mac: command + C
    - Ctrl + X
 
 #### Paste
-
+   - Mac: command + V  (for copy paste)
+   - Mac: command + option + V (for cut paste)
    - Ctrl + V
 
 #### Select all
-
+   - Mac: command + A
    - Ctrl + A
 
 Windows
@@ -46,3 +47,7 @@ You can also use Mission Control (swipe up with three or four fingers on the tra
 
 #### Open emoji window
    - Ctrl + Cmd + Spacebar
+
+#### Screenshot
+   - Mac: command + shift + 4
+   - Win: windows + shift + S

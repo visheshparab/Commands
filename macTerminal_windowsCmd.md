@@ -14,9 +14,19 @@
 
 - cd ..
 
+#### Goto root directory
+- cd ~
+
+#### To get previous executed command
+- up and down arrow keys
+
 #### Open specific Drive (Below eg. of D drive)
 
 - cd D:
+
+#### clear terminal
+- clear
+- command + K
 
 #### List all files and folders
 
@@ -45,6 +55,9 @@
 - Mac: touch [fileName] [fileName2] ….
 - Win: edit [fileName] [fileName2] ….
 
+#### Open files
+- Mac: open [fileName]
+
 #### Deleting files
 
 - Mac: rm [fileName]
@@ -55,6 +68,9 @@
 - Mac: rm fileName fileName2 …
 - Win: del fileName fileName2 ….
 
+#### Deleting all files
+- Mac: rm *
+
 #### Move files
 
 - Mac: mv fileName path(mv mapty.js - ../)
@@ -63,6 +79,8 @@
 
 - Mac: mv fileName path(mv mapty.js - ../)
 
+#### Delete Directory
+- Mac: rm -r [directoryName]
 #### Delete empty directory
 
 - Mac: rmdir folder - Name
@@ -88,7 +106,7 @@ Win: ren "old-folder-name" "new-folder-name"
 
 - Win: net start
 
-#### path
+#### prints entire path till current location
 - Mac: pwd
 
 #### Read Write full Permissions
