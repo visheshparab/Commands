@@ -9,8 +9,10 @@
    - npm -v
 
 #### initializing new project -> package.json file
-
    - npm init
+
+#### initializing new project -> package.json file with all set to default Y
+   - nmp init -y
 
 #### Installing packages
 - npm i [packageName]
@@ -147,3 +149,6 @@
 
 #### Install pug
    - npm i pug
+
+#### body-parser: to get values from request form
+   - npm i body-parser

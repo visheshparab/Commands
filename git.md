@@ -211,3 +211,12 @@ push Update remote refs along with associated objects
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
+
+#### check what changes made in file
+- git diff [filename]
+
+#### roleback file to the last saved point or last commit
+- git checkout [filename]
+
+#### revert last git command, to remove all files in staging area
+- git rm cached -r

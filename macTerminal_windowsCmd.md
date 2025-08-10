@@ -2,7 +2,7 @@
 
 #### Create new directory
 
-- cd mkdir
+- mkdir [folderName]
 
 #### Open Directory
 
@@ -54,6 +54,9 @@
 
 - Mac: touch [fileName] [fileName2] ….
 - Win: edit [fileName] [fileName2] ….
+
+#### multiple commands using semicolon
+- Mac: mkdir [folderName]; touch [folderName]/[filename]
 
 #### Open files
 - Mac: open [fileName]
@@ -123,3 +126,7 @@ Win: ren "old-folder-name" "new-folder-name"
 
 #### Move cursor to end of the command
 - control + E
+
+#### check which ports are open
+- Mac: lsof -i -P -n | grep LISTEN
+- Win: netstat -ano | findstr "LISTENING"
