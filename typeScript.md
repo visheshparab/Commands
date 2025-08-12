@@ -1,19 +1,25 @@
 #### Globaly installing typescript
-- npm install -g typescript
+
+    - npm install -g typescript
 
 #### compile typescript: creating typescript to javascript file
-- tsc [fileName]
+
+    - tsc [fileName]
 
 #### Watch mode: automatically compile typescript file on change.
-- tsc [fileName] --watch
-- tsc [fileName] -w
+
+    - tsc [fileName] --watch
+    - tsc [fileName] -w
 
 #### initailize typescript in project: creates tsconfig.json file.
-- tsc --init
+
+    - tsc --init
 
 #### after executing tsc --init you can compile all typescript files present in project.
-- tsc
+
+    - tsc
 
 #### Watch mode for all typescript files
-- tsc --watch
-- tsc -w
+
+    - tsc --watch
+    - tsc -w

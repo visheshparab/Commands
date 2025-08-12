@@ -2,131 +2,152 @@
 
 #### Create new directory
 
-- mkdir [folderName]
+    - mkdir [folderName]
 
 #### Open Directory
 
-- cd [folderName]
-- cd [folderName]/[anotherFolderName]
-- cd [path]
+    - cd [folderName]
+    - cd [folderName]/[anotherFolderName]
+    - cd [path]
 
 #### Goto previous directory
 
-- cd ..
+    - cd ..
 
 #### Goto root directory
-- cd ~
+
+    - cd ~
 
 #### To get previous executed command
-- up and down arrow keys
+
+    - up and down arrow keys
 
 #### Open specific Drive (Below eg. of D drive)
 
-- cd D:
+    - cd D:
 
 #### clear terminal
-- clear
-- command + K
+
+    - clear
+    - command + K
 
 #### List all files and folders
 
-- Mac: ls
-- Win: dir or ls
+    - Mac: ls
+    - Win: dir or ls
 
 #### List all files including hidden
 
-- Mac: ls -a
-- Win: ls -a or ls -la
+    - Mac: ls -a
+    - Win: ls -a or ls -la
 
 #### List all files folders including permissions
-- Mac: ls -l
+
+    - Mac: ls -l
 
 #### Move 2 levels back
 
-- Cd . - ./..
+    - Cd . - ./..
 
 #### Create files
 
-- Mac: touch [fileName]
-- Win: edit [fileName]
+    - Mac: touch [fileName]
+    - Win: edit [fileName]
 
 #### Create multiple files
 
-- Mac: touch [fileName] [fileName2] ….
-- Win: edit [fileName] [fileName2] ….
+    - Mac: touch [fileName] [fileName2] ….
+    - Win: edit [fileName] [fileName2] ….
 
 #### multiple commands using semicolon
-- Mac: mkdir [folderName]; touch [folderName]/[filename]
+
+    - Mac: mkdir [folderName]; touch [folderName]/[filename]
 
 #### Open files
-- Mac: open [fileName]
+
+    - Mac: open [fileName]
 
 #### Deleting files
 
-- Mac: rm [fileName]
-- Win: del [fileName]
+    - Mac: rm [fileName]
+    - Win: del [fileName]
 
 #### Deleting multiple files
 
-- Mac: rm fileName fileName2 …
-- Win: del fileName fileName2 ….
+    - Mac: rm fileName fileName2 …
+    - Win: del fileName fileName2 ….
 
 #### Deleting all files
-- Mac: rm *
+
+    - Mac: rm \*
 
 #### Move files
 
-- Mac: mv fileName path(mv mapty.js - ../)
+    - Mac: mv fileName path(mv mapty.js - ../)
 
 #### Move multiple files
 
-- Mac: mv fileName path(mv mapty.js - ../)
+    - Mac: mv fileName path(mv mapty.js - ../)
 
 #### Delete Directory
-- Mac: rm -r [directoryName]
+
+    - Mac: rm -r [directoryName]
+
 #### Delete empty directory
 
-- Mac: rmdir folder - Name
+    - Mac: rmdir folder - Name
 
 #### Delete directory and all files within
 
-- Mac: rm -R folde - rName
+    - Mac: rm -R folde - rName
 
 #### To set permission
 
-- sudo chown -R $USER /Users/visheshparab/Desktop/Projects/JavaScript/complete-javascript-course-master/17-Modern-JS-Modules-
-  Tooling/starter/node_modules
-
-Folder rename
-Mac: mv "old-folder-name" "new-folder-name"
-Win: ren "old-folder-name" "new-folder-name"
+    - sudo chown -R $USER /Users/visheshparab/Desktop/Projects/JavaScript/complete-javascript-course-master/17-Modern-JS-Modules-Tooling/starter/node_modules
 
 #### Display information about the machine’s hardware architecture.
 
-- Mac: uname -m
+    - Mac: uname -m
 
 #### Check started services
 
-- Win: net start
+    - Win: net start
 
 #### prints entire path till current location
-- Mac: pwd
+
+    - Mac: pwd
 
 #### Read Write full Permissions
-- sudo chmod 777 [path or fileName/folderName]
+
+    - sudo chmod 777 [path or fileName/folderName]
 
 #### Move cursor fast through command to edit
-- option + leftArrow/RightArrow
+
+    - option + leftArrow/RightArrow
 
 #### Creal typed command
-- control + U
+
+    - control + U
 
 #### Move cursor to start of the command
-- control + A
+
+    - control + A
 
 #### Move cursor to end of the command
-- control + E
+
+    - control + E
 
 #### check which ports are open
-- Mac: lsof -i -P -n | grep LISTEN
-- Win: netstat -ano | findstr "LISTENING"
+
+    - Mac: lsof -i -P -n | grep LISTEN
+    - Win: netstat -ano | findstr "LISTENING"
+
+#### Rename file
+
+    - Mac: mv [oldFileName] [newFileName]
+    - Win: ren [oldFileName] [newFileName]
+
+#### Rename Folder
+
+    - Mac: mv [oldFolderName] [newFolderName]
+    - Win: ren [oldFolderName] [newFolderName]

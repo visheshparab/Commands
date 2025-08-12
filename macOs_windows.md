@@ -1,29 +1,37 @@
 ## MacOs/Windows
 
-#### Switch between tabs
+#### Switch between opened windows/applications
 
-   - Ctrl + Tab
+    - Mac: Command + Tab
+    - Win: Alt + Tab
 
 #### Save
 
-   - Ctrl + S
+    - Ctrl + S
 
 #### Copy
-   - Mac: command + C
-   - Ctrl + C
+
+    - Mac: command + C
+    - Win: Ctrl + C
 
 #### Cut
-   - Mac: command + C
-   - Ctrl + X
+
+    - Mac: Command + C
+    - Win: Ctrl + X
 
 #### Paste
-   - Mac: command + V  (for copy paste)
-   - Mac: command + option + V (for cut paste)
-   - Ctrl + V
+
+    Mac:
+    - Command + V (for copy paste)
+    - Command + option + V (for cut paste)
+
+    Win:
+    - Ctrl + V
 
 #### Select all
-   - Mac: command + A
-   - Ctrl + A
+
+    - Mac: command + A
+    - Win: Ctrl + A
 
 Windows
 Windows Key + Ctrl + Left Arrow: Switch to the previous desktop.
@@ -34,20 +42,29 @@ Control + Right Arrow: Move to the next desktop.
 You can also use Mission Control (swipe up with three or four fingers on the trackpad, or press F3 or Control + Up Arrow) on macOS to see all desktops and select one.
 
 #### Windows full screen
-- Mac: Ctrl + Command + F
-- Win: Alt + Space + X
+
+    - Mac: Ctrl + Command + F
+    - Win: Alt + Space + X
 
 #### Quit window
-- Mac: Command + Q
-- Win: Alt + Space + C
+
+    - Mac: Command + Q
+    - Win: Alt + Space + C
 
 #### Close window
-- Mac: Command + W
-- Win: Alt + Space + C
+
+    - Mac: Command + W
+    - Win: Alt + Space + C
 
 #### Open emoji window
-   - Ctrl + Cmd + Spacebar
+
+    - Ctrl + Cmd + Spacebar
 
 #### Screenshot
-   - Mac: command + shift + 4
-   - Win: windows + shift + S
+
+    - Mac: command + shift + 4
+    - Win: windows + shift + S
+
+#### Open cmd in Administrator mode
+
+    - Win: windows + R -> type "cmd" -> Ctrl + Shift + Enter

@@ -1,6 +1,6 @@
 ## commands
 
-Here you will get commands and shortcut keys for vscode, git, cmd, browser, node
+Here you will get commands and shortcut keys for vscode, git, cmd, browser, node, npm
 
 1. Headings
    Use # for headings (up to six levels).

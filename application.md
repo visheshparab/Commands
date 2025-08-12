@@ -1,17 +1,72 @@
-## Browser
+# Browser
 
 #### Jump to the address bar
 
-- Ctrl + L
-- Alt + D
+    Win:
+    - Ctrl + L
+    - Alt + D
 
 #### New tab
 
-- Ctrl + T
+    - Win: Ctrl + T
+
+#### Close tab
+
+    - Win: Ctrl + W
+
+#### Reopen closed tab
+
+    - Win: Ctrl + Shift + T
 
 #### New private window
 
-- Ctrl + Shift + N
+    - Win: Ctrl + Shift + N
+
+#### Downloads
+
+    - Win: Ctrl + J
+
+#### Switch tabs
+
+    Win:
+    - Ctrl + Tab
+    - Ctrl + [number]
+
+#### Refresh tab
+
+    - Win: Ctrl + R
+
+#### Hard refresh tab
+
+    - Win: Ctrl + Shift + R
+
+#### Bookmark
+
+    - Win: Ctrl + D
+
+#### Delete browsing data
+
+    - Win: Ctrl + shift + Delete
+
+#### Print
+
+    - Win: Ctrl + P
+
+#### Move back/forward on website
+
+    - Win: Ctrl + leftArrow/rightArrow
+
+#### Developer tool
+
+    Mac:
+    - option + command + I (Network)
+    - option + command + J (Console)
+    - option + command + C (Elements)
+
+    Win:
+
+    - Ctrl + Shift + I (Elements)
+    - Ctrl + Shift + J (Console)
 
   <br>
 
@@ -50,8 +105,3 @@ Miscellaneous
 
 :smile: :heart: :rocket:
 ==highlighted text==
-
-#### Developer tool
-- option + command + I (Network)
-- option + command + J (Console)
-- option + command + C (Elements)

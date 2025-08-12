@@ -1,4 +1,0 @@
-- class names in pascal casing.
-- properties in classes in pascal case.
-- choose nuget packages asper dotnet version if you are using dotnet 9 then install package starting with 9.
-- Interfaces always get prefix with capital I.

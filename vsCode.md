@@ -2,57 +2,67 @@
 
 #### Select all occurances in file
 
-   - Ctrl + Shift + L
+    - Win: Ctrl + Shift + L
 
 #### Select specific occurances in file
 
-   - Ctrl + D
+    - Win: Ctrl + D
 
 #### Multiple cursor
 
-   - Alt + Click
+    - Win: Alt + Click
 
 #### Select all content and move to next line
 
-   - Ctrl + L
+    - Win: Ctrl + L
 
 #### Open Preview on split screen
 
-   - Ctrl + K, V
+    - Win: Ctrl + K, V
 
 #### Open Preview as single file
 
-   - Ctrl + Shift + V
+    - Win: Ctrl + Shift + V
 
 #### Close Opened file
 
-   - Ctrl + F4
+    - Win: Ctrl + F4
 
 #### New terminal
-- Ctrl + Shift + `
+
+    - Win: Ctrl + Shift + `
 
 #### Navigate to terminal
 
-   - Ctrl + `
+    - Win: Ctrl + `
 
 #### Hide terminal
 
-    - Ctrl + J
+    - Win: Ctrl + J
+           Ctrl + `
 
 #### Jump to opened pages
 
-    - Alt + fileTabNumber
-    - Ctrl + Tab
-    - Alt + sideArrow
+    - Win: Alt + [fileTabNumber]
+           Ctrl + Tab
+           Alt + [left/right Arrow]
+
+    - Win: Alt + [fileTabNumber]
+           Ctrl + Tab
+           Alt + [left/right Arrow]
 
 #### Search and Open File
 
-    - Ctrl + P
+    - Win: Ctrl + P
 
 #### Close file
 
-    - Ctrl + W
-    - Ctrl + F4
+    Mac:
+        - Cmd + W
+
+    Win:
+        - Ctrl + W
+        - Ctrl + F4
 
 #### Close all files
 
@@ -115,65 +125,86 @@
     - Ctrl + Backspace
 
 #### Delete whole word from right side of the cursor
+
     - Ctrl + Backspace
 
 # mac
 
-#### To close file
-
-- cmd + w
-
 #### To open closed file
 
-- cmd + shift + t
+    - cmd + shift + t
 
 #### Open current terminal
 
-- cmd + j
+    - cmd + j
 
 #### Search files in the workspace
 
-- cmd + p
+    - cmd + p
 
 #### Open command palette
 
-- cmd + shift + p
+    - cmd + shift + p
 
 #### Toggle word wrap
 
-- ctrl + z
+    - ctrl + z
 
 #### Activity bar
 
-- cmd + b
+    - cmd + b
 
 #### Activity bar files
 
-- cmd + shift + e
+    - cmd + shift + e
 
 #### Activity bar extensions
 
-- cmd + shift + x
+    - cmd + shift + x
 
 #### Split screen
 
-- cmd + \
+    - cmd + \
 
 #### New line anytime
 
-- cmd + enter
+    - cmd + enter
 
 #### Erases text to the right of the cursor
 
-- fn + delete
+    - fn + delete
 
 #### Navigate in and across files
 
-- ctrl + tab
+    - ctrl + tab
 
 #### Open Thunder client
 
-- Ctrl + shift + R
+    - Ctrl + shift + R
 
 #### Open Shortcut pdf in browser
-- cmd + K + R
+
+    - cmd + K + R
+
+#### List all hidden files
+
+    - Win: Get-ChildItem -Force
+    - Mac: ls -a
+
+#### Display all files and folders in the current directory, including hidden ones. If you want to include hidden files in subdirectories as well
+
+    - Win: Get-ChildItem -Force -Recurse
+    - Mac:
+
+#### Terminal clear
+
+    - clear
+    - Ctrl + K
+
+#### Open project in vscode
+
+    - code .
+
+#### Open project in current vscode window
+
+    - code -r .
