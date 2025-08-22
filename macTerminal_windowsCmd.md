@@ -12,24 +12,26 @@
 
 #### Goto previous directory
 
-    - cd ..
+    - Win: cd ..
 
 #### Goto root directory
 
-    - cd ~
+    - Win: cd ~
 
 #### To get previous executed command
 
-    - up and down arrow keys
+    - Mac: up and down arrow keys
+    - Win: up and down arrow keys
 
 #### Open specific Drive (Below eg. of D drive)
 
-    - cd D:
+    - Win: cd D:
+           d:
 
 #### clear terminal
 
-    - clear
-    - command + K
+    - Mac: clear
+           command + K
 
 #### List all files and folders
 
@@ -48,6 +50,7 @@
 #### Move 2 levels back
 
     - Cd . - ./..
+    - Win: cd ../..
 
 #### Create files
 
@@ -119,23 +122,23 @@
 
 #### Read Write full Permissions
 
-    - sudo chmod 777 [path or fileName/folderName]
+    - Mac: sudo chmod 777 [path or fileName/folderName]
 
 #### Move cursor fast through command to edit
 
-    - option + leftArrow/RightArrow
+    - Mac: option + leftArrow/RightArrow
 
-#### Creal typed command
+#### Clear typed command
 
-    - control + U
+    - Mac: control + U
 
 #### Move cursor to start of the command
 
-    - control + A
+    - Mac: control + A
 
 #### Move cursor to end of the command
 
-    - control + E
+    - Mac: control + E
 
 #### check which ports are open
 

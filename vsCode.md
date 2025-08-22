@@ -47,86 +47,80 @@
            Ctrl + Tab
            Alt + [left/right Arrow]
 
-    - Win: Alt + [fileTabNumber]
-           Ctrl + Tab
-           Alt + [left/right Arrow]
-
 #### Search and Open File
 
     - Win: Ctrl + P
 
 #### Close file
 
-    Mac:
-        - Cmd + W
+    - Mac: Cmd + W
 
-    Win:
-        - Ctrl + W
-        - Ctrl + F4
+    - Win: Ctrl + W
+           Ctrl + F4
 
 #### Close all files
 
-    - Ctrl + shift + W
+    - Win: Ctrl + shift + W
 
 #### Zoom in
 
-    - Ctrl + =
+    - Win: Ctrl + =
 
 #### Zoom out
 
-    - Ctrl + -
+    - Win: Ctrl + -
 
 #### Empty split screen
 
-    - Ctrl + number(starting 2)
+    - Win: Ctrl + number(starting 2)
 
 #### Split screen with current page
 
-    - Ctrl + \
+    - Win: Ctrl + \
 
 #### Move cursor word by word
 
-    - Ctrl + sideArrow
+    - Win: Ctrl + sideArrow
 
 #### Find
 
-    - Ctrl + F
+    - Win: Ctrl + F
 
 #### Find and replace
 
-    - Ctrl + H
+    - Win: Ctrl + H
 
-      1. To replace one by one occurance
+           1. To replace one by one occurance
 
-         - Ctrl + Enter
+              Ctrl + Enter
 
-      2. To replace all occurances
+           2. To replace all occurances
 
-         - Ctrl + Alt + Enter
+              Ctrl + Alt + Enter
 
 #### Duplicate contents
 
-    - Alt + Shift + Up/DownArrow
+    - Win: Alt + Shift + Up/DownArrow
 
 #### Move contents
 
-    - Alt + Up/DownArrow
+    - Win: Alt + Up/DownArrow
 
 #### Go to specific code block
 
-    - Ctrl + Shift + O
+    - Win: Ctrl + Shift + O
 
 #### Go to line number
 
-    - Ctrl + G
+    - Win: Ctrl + G
 
 #### Delete whole word from left side of the cursor
 
-    - Ctrl + Backspace
+    - Win: Ctrl + Backspace
 
 #### Delete whole word from right side of the cursor
 
-    - Ctrl + Backspace
+    - Win: Ctrl + Backspace
 
 # mac
 
