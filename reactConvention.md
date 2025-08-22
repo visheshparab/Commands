@@ -1,0 +1,1 @@
+- Always start module names with a capital letter when creating a new module.
