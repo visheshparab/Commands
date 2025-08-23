@@ -178,3 +178,18 @@
 #### body-parser: to get values from request form
 
     - npm i body-parser
+
+#### Install axios (Axios is a JavaScript library used to make HTTP requests)
+    - npm i axios
+
+#### Install EJS (Embedded JavaScript Templates is a templating engine for Node.js that lets you write HTML pages with JavaScript embedded inside them.)
+    - npm i ejs
+
+#### Install morgan (Morgan is an HTTP request logger middleware for Node.js + Express, It logs details about every request made to your server (method, URL, status, response time, etc.), Great for debugging, monitoring, and keeping track of server activity.)
+    - npm i morgan
+
+#### A Node.js library that creates QR codes in image formats like PNG, SVG, EPS, or PDF.
+    - npm i qr-image
+
+#### A Node.js library for creating user-friendly CLI interfaces.
+    - npm i inquirer
