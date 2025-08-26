@@ -82,15 +82,15 @@ push Update remote refs along with associated objects
 
 #### To navigate
 
-    - git checkout <-branch_name->
+    - git checkout [branchName]
 
 #### To create new branch
 
-    - git checkout -b <-new branch_name->
+    - git checkout -b [new branchName]
 
 #### To delete branch
 
-    - git branch -d <-branch_name->
+    - git branch -d [branchName]
 
 #### List userName and emailId of git
 
@@ -99,7 +99,7 @@ push Update remote refs along with associated objects
 #### Imagine you’re working on a feature, but an urgent bug fix needs attention. Rather than committing half-done work, you can stash your changes, switch to the bug-fix branch, and return to your feature later without any clutter.
 
     - git stash
-    - git stash apply
+    - git stash apply [stashCode]
 
 #### git reflog can save you. It keeps track of all changes to the tip of branches, helping you recover lost commits.
 
@@ -215,11 +215,25 @@ See 'git help git' for an overview of the system.
 #### check what changes made in file
 
     - git diff [filename]
+    - git diff --staged  (displays changes made by file which are currently in staging)
+    - git diff [commitId1] [commitId2]  (displays changes with specific commit)
+    - git diff [commitId1]..[commitId2]
 
 #### roleback file to the last saved point or last commit
 
     - git checkout [filename]
+    - git checkout [commitId]  (roleback to specific commit checkpoint)
+    - git checkout HEAD~2      (roleback 2 commit back)
 
 #### revert last git command, to remove all files in staging area
 
     - git rm cached -r
+
+#### Move changes temporarily to shelf so that you can switch branch without staging or commiting
+    - git stash
+
+#### Bring back stash changes
+    - git stash pop
+
+#### List all stash
+    - git stash list
