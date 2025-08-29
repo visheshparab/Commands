@@ -1,59 +1,32 @@
 # Git
 
+#### initializing git in Empty project/repository
+
+    - git init
+
 #### Git config
 
     - git config --global user.name [userName]
     - git config --global user.email [emailId]
 
-clone Clone a repository into a new directory
-init Create an empty Git repository or reinitialize an existing one
-
-work on the current change (see also: git help everyday)
-add Add file contents to the index
-mv Move or rename a file, a directory, or a symlink
-restore Restore working tree files
-rm Remove files from the working tree and from the index
-
-examine the history and state (see also: git help revisions)
-bisect Use binary search to find the commit that introduced a bug
-diff Show changes between commits, commit and working tree, etc
-grep Print lines matching a pattern
-log Show commit logs
-show Show various types of objects
-status Show the working tree status
-
-grow, mark and tweak your common history
-branch List, create, or delete branches
-commit Record changes to the repository
-merge Join two or more development histories together
-rebase Reapply commits on top of another base tip
-reset Reset current HEAD to the specified state
-switch Switch branches
-tag Create, list, delete or verify a tag object signed with GPG
-
-collaborate (see also: git help workflows)
-fetch Download objects and refs from another repository
-pull Fetch from and integrate with another repository or a local branch
-push Update remote refs along with associated objects
-
 #### Command to clone repository from github to local machine
 
-    - git clone https://github.com/visheshparab/gitHubDemoWindows.git
+    - git clone [https://github.com/visheshparab/gitHubDemoWindows.git]
 
 #### check status
 
     - git status
 
-#### Add specific file which are modified or created new
+#### Add specific file in staging
 
     - git add filename
 
-#### Add all files which are modified and created new
+#### Add all files in staging
 
     - git add .
     - git add -A
 
-#### save all files and changes on git
+#### save all files to local repository
 
     - git commit -m 'message'
       Example: git commit -m '10 new command added in readme.md file, and created new file index.html'
@@ -61,10 +34,9 @@ push Update remote refs along with associated objects
 #### push code from local machine to git hub repository
 
     - git push origin main
+    - git push -u origin main (After this command, we can only run git push)
 
-#### initializing git in Empty project/repository
-
-    - git init
+#### Add local repository files to github repository
 
     - git remote add origin <-link->
 
@@ -72,29 +44,18 @@ push Update remote refs along with associated objects
 
     - git remote -v
 
-#### To check branch
-
-    - git branch
-
-#### To rename branch
-
-    - git branch -M main
-
-#### To navigate
-
-    - git checkout [branchName]
-
-#### To create new branch
-
-    - git checkout -b [new branchName]
-
-#### To delete branch
-
-    - git branch -d [branchName]
-
 #### List userName and emailId of git
 
-    - git config --list
+    - git config --list (run this command in root directory: cd)
+
+#### Move changes temporarily to shelf so that you can switch branch without staging or commiting
+    - git stash
+
+#### Bring back stash changes
+    - git stash pop
+
+#### List all stash
+    - git stash list
 
 #### Imagine you’re working on a feature, but an urgent bug fix needs attention. Rather than committing half-done work, you can stash your changes, switch to the bug-fix branch, and return to your feature later without any clutter.
 
@@ -143,6 +104,7 @@ push Update remote refs along with associated objects
 #### Log of all commits
 
     - git log
+    - git log --oneline (list all commits in one line)
 
 #### List all branches
 
@@ -152,65 +114,27 @@ push Update remote refs along with associated objects
 
     - git branch [brachName]
 
-#### Switch to branch
+#### To rename branch
+
+    - git branch -m main (first switch to branch you want to rename, then run this command)
+
+#### To switch branch
 
     - git checkout [branchName]
+    - git switch [branchName]
+
+#### To create new branch and switch to created branch
+
+    - git checkout -b [newBranchName]
+    - git switch -c [newBranchName]
+
+#### To delete branch
+
+    - git branch -d [branchName]
 
 #### Merge changes in master branch (current in master branch)
 
     - git merge [newFeatureBranchName]
-
-### Local repository to github
-
-    - git remote add origin https://github.com/visheshparab/forkify.git
-    - git push origin master
-    - git push origin [anotherBranchName] (if you also want to push other branches)
-
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-[--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-[-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
-[--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
-[--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
-<command> [<args>]
-
-These are common Git commands used in various situations:
-
-start a working area (see also: git help tutorial)
-clone Clone a repository into a new directory
-init Create an empty Git repository or reinitialize an existing one
-
-work on the current change (see also: git help everyday)
-add Add file contents to the index
-mv Move or rename a file, a directory, or a symlink
-restore Restore working tree files
-rm Remove files from the working tree and from the index
-
-examine the history and state (see also: git help revisions)
-bisect Use binary search to find the commit that introduced a bug
-diff Show changes between commits, commit and working tree, etc
-grep Print lines matching a pattern
-log Show commit logs
-show Show various types of objects
-status Show the working tree status
-
-grow, mark and tweak your common history
-branch List, create, or delete branches
-commit Record changes to the repository
-merge Join two or more development histories together
-rebase Reapply commits on top of another base tip
-reset Reset current HEAD to the specified state
-switch Switch branches
-tag Create, list, delete or verify a tag object signed with GPG
-
-collaborate (see also: git help workflows)
-fetch Download objects and refs from another repository
-pull Fetch from and integrate with another repository or a local branch
-push Update remote refs along with associated objects
-
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
 
 #### check what changes made in file
 
@@ -228,12 +152,3 @@ See 'git help git' for an overview of the system.
 #### revert last git command, to remove all files in staging area
 
     - git rm cached -r
-
-#### Move changes temporarily to shelf so that you can switch branch without staging or commiting
-    - git stash
-
-#### Bring back stash changes
-    - git stash pop
-
-#### List all stash
-    - git stash list
