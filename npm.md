@@ -193,3 +193,6 @@
 
 #### A Node.js library for creating user-friendly CLI interfaces.
     - npm i inquirer
+
+#### pg uninstall
+    - npm un pg
