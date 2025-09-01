@@ -194,5 +194,10 @@
 #### A Node.js library for creating user-friendly CLI interfaces.
     - npm i inquirer
 
+<<<<<<< Updated upstream
 #### pg uninstall
     - npm un pg
+=======
+#### Install postgresql
+    - npm i pg
+>>>>>>> Stashed changes
