@@ -1,15 +1,15 @@
 # VScode
 
 #### Select all occurances in file
-
+    - mac: command + shift + L
     - Win: Ctrl + Shift + L
 
-#### Select specific occurances in file
-
+#### Select occurances from selected one to downwards
+    - mac: command + D
     - Win: Ctrl + D
 
 #### Multiple cursor
-
+    - mac: command + click
     - Win: Alt + Click
 
 #### Select all content and move to next line
@@ -17,75 +17,79 @@
     - Win: Ctrl + L
 
 #### Open Preview on split screen
-
+    - mac: command + K, V
     - Win: Ctrl + K, V
 
 #### Open Preview as single file
-
+    - mac: command + shift + V
     - Win: Ctrl + Shift + V
 
+----flag check win command---
 #### Close Opened file
-
+    - mac: control + W
     - Win: Ctrl + F4
 
 #### New terminal
-
+    - mac: control + shift + `
     - Win: Ctrl + Shift + `
 
 #### Navigate to terminal
-
+    - mac: control + `
     - Win: Ctrl + `
 
 #### Hide terminal
-
+    - mac: control + J
+           control + `
     - Win: Ctrl + J
            Ctrl + `
 
-#### Jump to opened pages
-
-    - Win: Alt + [fileTabNumber]
+#### Jump/Navigate to opened pages
+    - mac: control + tab
+           control + [tabNumber]
+    - Win: Alt + [tabNumber]
            Ctrl + Tab
            Alt + [left/right Arrow]
 
 #### Search and Open File
-
+    - mac: command + P
     - Win: Ctrl + P
 
 #### Close file
-
     - Mac: Cmd + W
 
     - Win: Ctrl + W
            Ctrl + F4
 
+--flag find command for mac--
 #### Close all files
-
+    - mac:
     - Win: Ctrl + shift + W
 
 #### Zoom in
-
+    - mac: command + =
     - Win: Ctrl + =
 
 #### Zoom out
-
+    - mac: command + =
     - Win: Ctrl + -
 
 #### Empty split screen
-
-    - Win: Ctrl + number(starting 2)
+    - mac: command + [countSplitScreen]
+    - Win: Ctrl + [countSplitScreen]
 
 #### Split screen with current page
-
+    - mac: command + \
     - Win: Ctrl + \
 
 #### Move cursor word by word
-
+    - mac: option + sideArrow
     - Win: Ctrl + sideArrow
 
 #### Find
-
+    - mac: command + F
     - Win: Ctrl + F
 
+-- flag find command for mac --
 #### Find and replace
 
     - Win: Ctrl + H
@@ -122,23 +126,9 @@
 
     - Win: Ctrl + Backspace
 
-# mac
-
 #### To open closed file
 
-    - cmd + shift + t
-
-#### Open current terminal
-
-    - cmd + j
-
-#### Search files in the workspace
-
-    - cmd + p
-
-#### Open command palette
-
-    - cmd + shift + p
+    - command + shift + t
 
 #### Toggle word wrap
 
@@ -146,44 +136,34 @@
 
 #### Activity bar
 
-    - cmd + b
+    - command + b
 
 #### Activity bar files
 
-    - cmd + shift + e
+    - command + shift + e
 
 #### Activity bar extensions
 
-    - cmd + shift + x
+    - command + shift + x
 
-#### Split screen
+#### New line anytime in between text
 
-    - cmd + \
+    - mac: command + enter
 
-#### New line anytime
-
-    - cmd + enter
-
-#### Erases text to the right of the cursor
-
-    - fn + delete
-
-#### Navigate in and across files
-
-    - ctrl + tab
-
-#### Open Thunder client
-
-    - Ctrl + shift + R
-
+-- flag find for mac --
 #### Open Shortcut pdf in browser
 
-    - cmd + K + R
+    - command + K + R
+
+#### Show file in file explorer
+    - mac: command + K, R
 
 #### List all hidden files
-
-    - Win: Get-ChildItem -Force
     - Mac: ls -a
+    - Win: Get-ChildItem -Force
+
+#### List all files with extra details
+    - mac: ls -la
 
 #### Display all files and folders in the current directory, including hidden ones. If you want to include hidden files in subdirectories as well
 
@@ -192,13 +172,13 @@
 
 #### Terminal clear
 
-    - clear
-    - Ctrl + K
+    - mac: clear
+           Ctrl + K
 
 #### Open project in vscode
 
-    - code .
+    - mac: code .
 
 #### Open project in current vscode window
 
-    - code -r .
+    - mac: code -r .
