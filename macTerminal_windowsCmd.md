@@ -41,7 +41,12 @@
 #### List all files including hidden
 
     - Mac: ls -a
-    - Win: ls -a or ls -la
+    - Win: ls -a
+
+#### List all files with extra details
+
+    - mac: ls -la
+    - Win: ls -la
 
 #### List all files folders including permissions
 
