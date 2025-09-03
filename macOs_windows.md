@@ -68,3 +68,13 @@ You can also use Mission Control (swipe up with three or four fingers on the tra
 #### Open cmd in Administrator mode
 
     - Win: windows + R -> type "cmd" -> Ctrl + Shift + Enter
+
+#### Delete text from right to left
+    - mac: delete
+           control + H
+    - win: delete
+
+-- flag win command check --
+#### Delete text from left to right
+    - mac: fn + delete
+    - win: delete
