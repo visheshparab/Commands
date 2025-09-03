@@ -80,14 +80,6 @@ push Update remote refs along with associated objects
 
     - git branch -M main
 
-#### To navigate
-
-    - git checkout <-branch_name->
-
-#### To create new branch
-
-    - git checkout -b <-new branch_name->
-
 #### To delete branch
 
     - git branch -d <-branch_name->
@@ -143,6 +135,7 @@ push Update remote refs along with associated objects
 #### Log of all commits
 
     - git log
+    - git log --oneline (logs all commits in one line)
 
 #### List all branches
 
@@ -155,6 +148,12 @@ push Update remote refs along with associated objects
 #### Switch to branch
 
     - git checkout [branchName]
+    - git switch [branchName]
+
+#### Create new branch and switch to created branch
+
+    - git checkout -b [branchName]
+    - git switch -c [branchName]
 
 #### Merge changes in master branch (current in master branch)
 
@@ -223,3 +222,11 @@ See 'git help git' for an overview of the system.
 #### revert last git command, to remove all files in staging area
 
     - git rm cached -r
+
+#### Set code editor to write commit message (below command is for vscode editor)
+
+    - git config --global core.editor "code --wait"
+
+#### Get details of username, email and other configuration on git
+
+    - cat .gitconfig

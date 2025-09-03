@@ -1,5 +1,9 @@
 # VScode
 
+#### Open vscode setting
+
+    - Win: Ctrl + ,
+
 #### Select all occurances in file
 
     - Win: Ctrl + Shift + L
