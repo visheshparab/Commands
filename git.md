@@ -121,6 +121,11 @@
     - git log
     - git log --oneline (logs all commits in one line)
 
+#### Log top 5 commits
+
+    - git log -n 5
+    - git log --oneline -n 5
+
 #### List all branches
 
     - git branch
@@ -172,6 +177,6 @@
 
     - git config --global core.editor "code --wait"
 
-#### Get details of username, email and other configuration on git
+#### Get details of username, email and other configuration on git (works on root directory: run cd first)
 
     - cat .gitconfig
