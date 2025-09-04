@@ -154,3 +154,11 @@
 
     - Mac: mv [oldFolderName] [newFolderName]
     - Win: ren [oldFolderName] [newFolderName]
+
+#### Open project in vscode
+
+    - mac: code .
+
+#### Open project in current vscode window
+
+    - mac: code -r .

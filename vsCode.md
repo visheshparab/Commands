@@ -222,11 +222,3 @@
 
     - mac: clear
            Ctrl + K
-
-#### Open project in vscode
-
-    - mac: code .
-
-#### Open project in current vscode window
-
-    - mac: code -r .
