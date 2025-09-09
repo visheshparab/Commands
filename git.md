@@ -44,17 +44,32 @@
 
     - git remote -v
 
+#### To check branch
+
+    - git branch
+
+#### To rename branch
+
+    - git branch -M main
+
+#### To delete branch
+
+    - git branch -d <-branch_name->
+
 #### List userName and emailId of git
 
     - git config --list (run this command in root directory: cd)
 
 #### Move changes temporarily to shelf so that you can switch branch without staging or commiting
+
     - git stash
 
 #### Bring back stash changes
+
     - git stash pop
 
 #### List all stash
+
     - git stash list
 
 #### Imagine you’re working on a feature, but an urgent bug fix needs attention. Rather than committing half-done work, you can stash your changes, switch to the bug-fix branch, and return to your feature later without any clutter.
@@ -104,7 +119,12 @@
 #### Log of all commits
 
     - git log
-    - git log --oneline (list all commits in one line)
+    - git log --oneline (logs all commits in one line)
+
+#### Log top 5 commits
+
+    - git log -n 5
+    - git log --oneline -n 5
 
 #### List all branches
 
@@ -123,10 +143,10 @@
     - git checkout [branchName]
     - git switch [branchName]
 
-#### To create new branch and switch to created branch
+#### Create new branch and switch to created branch
 
-    - git checkout -b [newBranchName]
-    - git switch -c [newBranchName]
+    - git checkout -b [branchName]
+    - git switch -c [branchName]
 
 #### To delete branch
 
@@ -152,3 +172,11 @@
 #### revert last git command, to remove all files in staging area
 
     - git rm cached -r
+
+#### Set code editor to write commit message (below command is for vscode editor)
+
+    - git config --global core.editor "code --wait"
+
+#### Get details of username, email and other configuration on git (works on root directory: run cd first)
+
+    - cat .gitconfig
