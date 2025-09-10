@@ -78,7 +78,7 @@
 #### Deleting multiple files
 
     - Mac: rm fileName fileName2 …
-    - Win: del fileName fileName2 ….
+    - Win: del fileName, fileName2 ….
 
 #### Deleting all files
 
@@ -95,14 +95,14 @@
 #### Delete Directory
 
     - Mac: rm -r [directoryName]
-
-#### Delete empty directory
-
-    - Mac: rmdir folder - Name
+    - win: del [directoryName]
+           rm [directoryName]
 
 #### Delete directory and all files within
 
     - Mac: rm -R folde - rName
+    - win: del -r [directoryName]
+           rm -r [directoryName]
 
 #### To set permission
 
