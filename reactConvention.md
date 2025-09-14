@@ -1,1 +1,3 @@
-- Always start module names with a capital letter when creating a new module.
+- Always start module name and file name with a capital letter when creating a new module.
+- hooks name starts with use (like useState())
+-
