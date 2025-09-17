@@ -222,3 +222,9 @@
 
     - mac: clear
            Ctrl + K
+
+#### Emoji window
+
+    - mac: fn
+           control + command + space
+    - win: windows + .
