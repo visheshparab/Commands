@@ -57,6 +57,19 @@
     - Win: Ctrl + J
            Ctrl + `
 
+#### Switch between opned terminal
+
+    - mac: command + shift + ]
+           command + shift + [
+    - win: Ctrl + PgDn
+           Ctrl + PgUp
+
+#### Terminal clear
+
+    - mac: clear
+           Ctrl + K
+    - win: clear
+
 #### Jump/Navigate to opened pages
 
     - mac: control + tab
@@ -218,13 +231,8 @@
     - Win: Get-ChildItem -Force -Recurse
     - Mac:
 
-#### Terminal clear
-
-    - mac: clear
-           Ctrl + K
-
 #### Emoji window
 
     - mac: fn
            control + command + space
-    - win: windows + .
+    - win: Ctrl + windows + .
