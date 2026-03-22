@@ -58,6 +58,8 @@ You can also use Mission Control (swipe up with three or four fingers on the tra
 
 #### Open emoji window
 
+    - Mac: Control + command + space
+           fn
     - Ctrl + Cmd + Spacebar
 
 #### Screenshot
