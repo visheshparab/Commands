@@ -199,3 +199,9 @@
 
 #### Install postgresql
     - npm i pg
+
+#### Create React project with vite
+    - npm create vite@latest
+    
+#### Configure esling after creating React project with vite
+    - npm install eslint vite-plugin-eslint eslint-config-react-app --save-dev
