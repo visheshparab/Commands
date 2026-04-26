@@ -205,3 +205,6 @@
     
 #### Configure esling after creating React project with vite
     - npm install eslint vite-plugin-eslint eslint-config-react-app --save-dev
+
+#### Install react router dom
+    - npm i react-router-dom@latest
